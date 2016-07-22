@@ -1,0 +1,37 @@
+SITE DOC
+==========
+==========
+
+Mee Sen PDX
+http://meesenpdx.dev
+
+DB INFO:
+========
+meesenpdx_site
+root
+root
+
+FTP:
+=====
+server:
+user:
+pass:
+
+Host Login:
+===========
+user:
+pass:
+
+cPanel Access:
+==============
+user:
+pass:
+
+
+Customer Contact Info:
+=======================
+name:
+email:
+phone:
+
+

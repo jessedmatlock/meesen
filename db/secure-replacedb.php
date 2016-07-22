@@ -33,6 +33,17 @@
  * USE OF THIS SCRIPT IS ENTIRELY AT YOUR OWN RISK. I/We accept no liability
  * from its use.
  *
+ * First Written 2009-05-25 by David Coveney of Interconnect IT Ltd (UK)
+ * http://www.davidcoveney.com or http://www.interconnectit.com
+ * and released under the WTFPL
+ * ie, do what ever you want with the code, and we take no responsibility for it
+ * OK? If you don't wish to take responsibility, hire us at Interconnect IT Ltd
+ * on +44 (0)151 331 5140 and we will do the work for you, but at a cost,
+ * minimum 1hr
+ *
+ * To view the WTFPL go to http://sam.zoy.org/wtfpl/ (WARNING: it's a little
+ * rude, if you're sensitive);
+ *
  *
  * Version 2.1.0:
  *              - Changed to version 2.1.0 
@@ -64,6 +75,9 @@
  *  Version 1.0.1
  *  	- styling and form added by James R Whitehead.
  *
+ *  Credits:  moz667 at gmail dot com for his recursive_array_replace posted at
+ *            uk.php.net which saved me a little time - a perfect sample for me
+ *            and seems to work in all cases.
  *
  */
 
@@ -559,7 +573,7 @@ if ( $step >= 5 ) {
 		padding: 10px;
 		margin: 0px auto;
 		border:solid 10px 0px 0px 0px #ccc;
-		border-top: 18px solid #111111;
+		border-top: 18px solid #DE1301;
 		background-color: #F5F5F5;
 	}
 
@@ -614,7 +628,7 @@ if ( $step >= 5 ) {
 
 
 	<h1>Safe Search Replace</h1>
-	<p class="byline">by Revive Marketing</p>
+	<p class="byline">by interconnect/<strong>it</strong></p>
 	<?php
 /*
  The bit that does all the work.
@@ -779,12 +793,11 @@ if ( ini_get( 'safe_mode' ) ) {
  Close out the html and exit.
 */ ?>
 		<div class="help">
-			<h4><a href="http://revivemarketing.org/">Revive Marketing :: Safe Search and Replace on Database with Serialized Data v2.0.0</a></h4>
-			
+			<h4><a href="http://interconnectit.com/">interconnect/it</a> <a href="http://interconnectit.com/124/search-and-replace-for-wordpress-databases/">Safe Search and Replace on Database with Serialized Data v2.0.0</a></h4>
 			<p>This developer/sysadmin tool helps solve the problem of doing a search and replace on a
 			WordPress site when doing a migration to a domain name with a different length.</p>
 
-			<p style="color:red">WARNING!</strong> Take a backup first, and carefully test the results of this code.
+			<p><style="color:red">WARNING!</strong> Take a backup first, and carefully test the results of this code.
 			If you don't, and you vape your data then you only have yourself to blame.
 			Seriously.  And if you're English is bad and you don't fully understand the
 			instructions then STOP.  Right there.  Yes.  Before you do any damage.
@@ -813,6 +826,7 @@ if ( ini_get( 'safe_mode' ) ) {
 			all references to a company name and changing it when a rebrand comes along.  Or
 			perhaps you changed your name.  Whatever you want to search and replace the code will help.</p>
 
+			<p><a href="http://interconnectit.com/124/search-and-replace-for-wordpress-databases/">Got feedback on this script? Come tell us!</a>
 
 		</div>
 	</div>

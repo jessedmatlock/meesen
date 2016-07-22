@@ -22,7 +22,7 @@ define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settin
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'meesenpdx_site');
+define('DB_NAME', 'meesenpdx_');
 
 /** MySQL database username */
 define('DB_USER', 'root');

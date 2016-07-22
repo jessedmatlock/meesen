@@ -1,0 +1,7 @@
+#####################################
+# FOR ADMIN DIRECTORY .HTACCESS
+
+# deny access to wp admin
+# order deny,allow
+# allow from xx.xx.xx.xx # This is your static IP
+# deny from all
